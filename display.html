@@ -6,13 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Display</title>
   <style>
+    * {
+       margin: 0;
+       padding: 0;
+    }
     .contanier {
       display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto auto auto;
+    }
+    img {
+      width: 100px;
     }
   </style>
 </head>
 <body>
-  <div class="containr">
+  <div class="contanier">
     <div class="item">
       <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1586021312768&di=2890a0b2e413350b6ce3e61c08129f58&imgtype=0&src=http%3A%2F%2Fwww.17qq.com%2Fimg_qqtouxiang%2F17871098.jpeg" />
     </div>
